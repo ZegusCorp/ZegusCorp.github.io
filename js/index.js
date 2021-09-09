@@ -5,7 +5,7 @@ const secondsElement = document.querySelector("#seconds");
 const monthsElement = document.querySelector("#months");
 
 // Get specific date and time in milliseconds from 1970 UTC
-let countDownDate = new Date("September 10, 2021").getTime();
+let countDownDate = new Date("September 20, 2021").getTime();
 
 setInterval(() => {
     // Get today's date and time in milliseconds from 1970 UTC
